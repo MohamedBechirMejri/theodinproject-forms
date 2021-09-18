@@ -1,5 +1,5 @@
 {
-  "name": "website-template",
+  "name": "theodinproject-forms",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MohamedBechirMejri/website-template.git"
+    "url": "git+https://github.com/MohamedBechirMejri/theodinproject-forms.git"
   },
   "author": "MohamedBechirMejri <mohamed.bechir.mejri.dev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MohamedBechirMejri/website-template/issues"
+    "url": "https://github.com/MohamedBechirMejri/theodinproject-forms/issues"
   },
-  "homepage": "https://github.com/MohamedBechirMejri/website-template#readme",
+  "homepage": "https://github.com/MohamedBechirMejri/theodinproject-forms#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^6.2.0",
