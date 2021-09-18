@@ -1,5 +1,7 @@
 import './main.scss';
 
-import exportFunc from './js/subScript1';
-
-exportFunc();
+document.querySelectorAll('input').forEach((input) => {
+  input.addEventListener('keyup', () => {
+    input.classList.add('changed');
+  });
+});
