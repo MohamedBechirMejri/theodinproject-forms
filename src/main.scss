@@ -28,5 +28,12 @@ form {
     &::placeholder {
       color: colors.$dark;
     }
+    &:hover {
+      background-color: colors.$dark;
+      color: colors.$light;
+      &::placeholder {
+        color: colors.$light;
+      }
+    }
   }
 }
