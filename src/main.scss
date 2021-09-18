@@ -11,7 +11,19 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   height: 100vh;
   width: 100vw;
+
+input {
+    margin: 0.1em;
+    width: 70%;
+    height: 10%;
+    font-size: x-large;
+    outline: none;
+    border-style: solid;
+    border-color: colors.$dark;
+    color: colors.$dark;
+    border-radius: 0.5em;
+    transition: all 300ms;
+}
 }
