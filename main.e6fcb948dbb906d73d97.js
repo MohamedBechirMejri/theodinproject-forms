@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelectorAll("input").forEach((e=>{e.addEventListener("keyup",(()=>{e.classList.add("changed")}))}));const e=document.getElementById("password"),t=document.getElementById("password-confirm");t.addEventListener("keyup",(()=>{t.value!==e.value?t.setCustomValidity("Passwords Don't match"):t.setCustomValidity("")}))})();
