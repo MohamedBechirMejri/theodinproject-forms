@@ -1,2 +1,8 @@
 @use './styles/colors';
 @use './styles/mixins';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
