@@ -35,5 +35,17 @@ form {
         color: colors.$light;
       }
     }
+    &.changed {
+      &:invalid {
+        background-color: crimson;
+      }
+
+      &:valid {
+        background-color: #3ecb7d;
+        &:hover {
+          background-color: #3ecb7d;
+        }
+      }
+    }
   }
 }
