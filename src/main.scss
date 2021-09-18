@@ -1,73 +1,80 @@
 @use './styles/colors';
 @use './styles/mixins';
 
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;600;700&display=swap);
+
+* {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 
-    input {
-        margin: 0.1em;
-        width: 70%;
-        height: 10%;
-        font-size: x-large;
-        outline: none;
-        border-style: solid;
-        border-color: colors.$dark;
-        color: colors.$dark;
-        border-radius: 0.5em;
-        transition: all 300ms;
+  input {
+    margin: 0.1em;
+    width: 70%;
+    height: 10%;
+    font-size: x-large;
+    outline: none;
+    border-style: solid;
+    border-color: colors.$dark;
+    color: colors.$dark;
+    border-radius: 0.5em;
+    transition: all 300ms;
 
-        &::placeholder {
-            color: colors.$dark;
-        }
-
-        &:hover {
-            background-color: colors.$dark;
-            color: colors.$light;
-
-            &::placeholder {
-                color: colors.$light;
-            }
-        }
-
-        &.changed {
-            &:invalid {
-                background-color: crimson;
-            }
-
-            &:valid {
-                background-color: #3ecb7d;
-
-                &:hover {
-                    background-color: #3ecb7d;
-                }
-            }
-        }
+    &::placeholder {
+      color: colors.$dark;
     }
 
-    button {
-        font-size: x-large;
-        margin-top: 1.5em;
-        padding: 0.5em;
-        background-color: colors.$light;
-        border-radius: 0.5em;
-        border-style: solid;
-        border-color: colors.$dark;
-        transition: all 300ms;
+    &:hover {
+      background-color: colors.$dark;
+      color: colors.$light;
+
+      &::placeholder {
+        color: colors.$light;
+      }
+    }
+
+    &.changed {
+      &:invalid {
+        background-color: crimson;
+      }
+
+      &:valid {
+        background-color: #3ecb7d;
 
         &:hover {
-            background-color: colors.$dark;
-            color: colors.$light;
+          background-color: #3ecb7d;
         }
+      }
     }
+  }
+
+  button {
+    font-size: x-large;
+    margin-top: 1.5em;
+    padding: 0.5em;
+    background-color: colors.$light;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: colors.$dark;
+    transition: all 300ms;
+
+    &:hover {
+      background-color: colors.$dark;
+      color: colors.$light;
+    }
+  }
 }
