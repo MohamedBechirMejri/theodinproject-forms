@@ -19,7 +19,7 @@
   "homepage": "https://github.com/MohamedBechirMejri/theodinproject-forms#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "css-loader": "^6.2.0",
+    "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^3.0.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -36,7 +36,7 @@
     "webpack": "^5.50.0",
     "webpack-cli": "^4.7.2",
     "webpack-dashboard": "^3.3.7",
-    "webpack-dev-server": "^3.11.2",
+    "webpack-dev-server": "^4.11.0",
     "webpack-merge": "^5.8.0"
   }
 }
